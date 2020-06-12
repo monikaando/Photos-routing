@@ -1,9 +1,9 @@
-app.factory("emails", [
+app.factory("shows", [
   "$http",
   function ($http) {
     return $http
       .get(
-        "https://s3.amazonaws.com/codecademy-content/courses/ltp4/emails-api/emails.json"
+        "https://s3.amazonaws.com/codecademy-content/courses/ltp4/shows-api/shows.json"
       )
       .success(function (data) {
         return data;
