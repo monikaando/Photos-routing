@@ -1,82 +1,87 @@
-html,
-body {
- margin: 0;
- padding: 0;
+body, html {
+    background: #f9f9f9;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 
-body {
- color: #211f1e ;
- background: url(../img/bg.jpg) no-repeat center center fixed; 
- background-size: cover;
- font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+.header {
+    background: #aa08ff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
 }
 
-.container {
- position: relative;
- top: 100px;
+.header img {
+    margin: 20px auto;   
+    padding: 20px 0; 
+    text-align: center;
 }
 
-h1 {
- font-family: "HelveticaNeue-UltraLight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
- font-size: 80px;
- font-weight: normal;
- margin: 0;
- text-align: right;
+.header ul {
+  list-style: none;
 }
 
-h2 {
- border-top: 1px solid #211f1e ;
- font-size: 24px;
- font-weight: bold;
- margin: 10px 0 40px 0;
- padding: 30px 0 0 0;
- text-align: right;
+.header li {
+  display: inline;
+  margin-right: 30px;
 }
 
-.day > div {
-    font-weight: bold;
- line-height: 48px;
+.main {
+    margin: 40px 0;
 }
 
-.weekday span {
- font-size: 18px;
- font-weight: bold;
+.email {
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: 18px;
+    margin: 0 0 8px;
+    padding: 20px 0;
 }
 
-.weekday p {
- display: inline-block;
- font-size: 18px;
- font-weight: bold;
+.email:hover {
+    background: #fcfcfc;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    cursor: pointer;
 }
 
-.weather img {
- width: 48px;
+.email span {
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
 }
 
-.high p,
-.low p,
-.hourly .temp {
- font-size: 16px;
+.from {
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 2%;
+    width: 20%;
 }
 
-.hourly {
- text-align: center;
- display: none;
+.subject {
+    width: 65%;
 }
 
-.hourly .hour {
- font-weight: bold;
- font-size: 16px;
+.date {
+    font-size: 14px;
+    padding-right: 2%;
+    text-align: right;
+    text-overflow: ellipsis;
 }
 
-.hourly img {
- width: 24px;
+.footer {
+  background:#000;
+  padding:60px 0; 
 }
 
-.hourly p {
- margin: 16px 0;
+.footer h3 {
+  color:#fff;
+  font-size:18px;
+  font-weight:300;  
 }
 
-.last {
- margin-bottom: 100px;
+.footer ul {
+  color:#0393ff; 
+  list-style:none;
+  padding-left:0px;  
 }
