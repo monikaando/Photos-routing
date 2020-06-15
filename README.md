@@ -7,4 +7,5 @@ In this exercise I practiced:
 5. Use the ng-repeat directive
 6. Build and use services in AngularJS 1.x
 7. Fetching data from a server
-<img src="https://res.cloudinary.com/mokaweb/image/upload/v1591985677/Codecademy%20Angular/Top10tvShows.png" alt="TvShows">
+8. Routing
+<img src="https://res.cloudinary.com/mokaweb/image/upload/v1592215449/Codecademy%20Angular/photos-routing.gif" alt="TvShows">
