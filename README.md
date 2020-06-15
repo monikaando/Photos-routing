@@ -1,4 +1,4 @@
-# Top10tvShows
+# Photos-routing
 In this exercise I practiced:
 1. Build and use modules in AngularJS 1.x
 2. Build and use controllers in AngularJS 1.x
@@ -8,4 +8,4 @@ In this exercise I practiced:
 6. Build and use services in AngularJS 1.x
 7. Fetching data from a server
 8. Routing
-<img src="https://res.cloudinary.com/mokaweb/image/upload/v1592215449/Codecademy%20Angular/photos-routing.gif" alt="TvShows">
+<img src="https://res.cloudinary.com/mokaweb/image/upload/v1592215449/Codecademy%20Angular/photos-routing.gif" alt="Photos-routing">
